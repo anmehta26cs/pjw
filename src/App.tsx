@@ -1,10 +1,11 @@
-function App() {
+// src/App.tsx
+import Navbar from './components/Navbar';
 
+const App = () => {
   return (
-    <div className="App">
-      
-    </div>
-  )
-}
+    <Navbar />
+  );
+};
 
-export default App
+export default App;
+
